@@ -1,0 +1,12 @@
+.chat-view{
+    position: relative;
+    cursor: pointer;
+    height: 500px;
+    overflow: hidden;
+}
+.circle-timer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2px;
+}

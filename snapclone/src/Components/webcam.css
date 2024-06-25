@@ -1,0 +1,32 @@
+.webcamcapture{
+    position: relative;
+  width: 100%;
+  max-width: 280px; /* Set max-width as needed */
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+.webcamcapture .react-webcam {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio:0.56;
+  }
+.web-radio-button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: white;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+
+}
+.web-back-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top: 8px;
+}
